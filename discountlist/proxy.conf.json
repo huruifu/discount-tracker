@@ -1,0 +1,10 @@
+{
+  "/api/*": {
+    "target": "https://discount-function-app.azurewebsites.net/api/",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
